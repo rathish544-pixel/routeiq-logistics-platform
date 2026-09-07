@@ -1,0 +1,42 @@
+# Editors / tools
+.aider*
+
+# Environment & secrets (never commit real values)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / frontend build
+node_modules/
+dist/
+.vite/
+
+# Logs & runtime artifacts
+*.log
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
